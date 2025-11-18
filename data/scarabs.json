@@ -35,12 +35,42 @@
   ],
   "scarab": [
     {
-      "jp": "",
-      "en": ""
+      "jp": "宿敵",
+      "en": "Nemeses"
     },
     {
-      "jp": "戦争のスカラベ",
-      "en": "Legion Scarab of War"
+      "jp": "宿敵",
+      "en": "Nemeses"
+    },
+    {
+      "jp": "敵対者",
+      "en": "Adversaries"
+    },
+    {
+      "jp": "神性",
+      "en": "Divinity"
+    }
+  ],
+  "strongbox": [
+    {
+      "jp": "アンブッシュ",
+      "en": "Ambush"
+    },
+    {
+      "jp": "眼識",
+      "en": "Discernment"
+    },
+    {
+      "jp": "有効性",
+      "en": "Potency"
+    },
+    {
+      "jp": "格納",
+      "en": "Containment"
+    },
+    {
+      "jp": "隠し収納",
+      "en": "Compartments"
     }
   ]
 }
