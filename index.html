@@ -7,12 +7,31 @@
 </head>
 <body>
 
-  <h1>PoE ツール</h1>
+  <h1>POEツール</h1>
 
   <input type="text" id="keyword" placeholder="アイテム名を検索">
   <button id="searchBtn">検索</button>
 
   <div id="results"></div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+<body>
+
+  <h1>スカラベセット</h1>
+
+  <label>コンテンツを選択</label>
+  <select id="contentSelect">
+    <option value="">選択してください</option>
+    <option value="blight">ブライト</option>
+    <option value="scarab">スカラベ</option>
+    <option value="strongbox">ストロングボックス</option>
+    <option value="betrayal">シンジケート</option>
+  </select>
+
+  <h2>推奨スカラベセット</h2>
+  <div id="scarabBox"></div>
 
   <script type="module" src="main.js"></script>
 </body>
