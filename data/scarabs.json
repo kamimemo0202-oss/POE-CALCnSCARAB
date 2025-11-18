@@ -1,1 +1,46 @@
-
+{
+  "blight": [
+    {
+      "jp": "活性化",
+      "en": "Invigoration"
+    },
+    {
+      "jp": "ブライトハート",
+      "en": "Blightheart"
+    },
+    {
+      "jp": "開花",
+      "en": "Blooming"
+    },
+    {
+      "jp": "リスク",
+      "en": "Risk"
+    },
+    {
+      "jp": "ウィスプ",
+      "en": "Wisp"
+    },
+    {
+      "jp": "血統",
+      "en": "Bloodlines"
+    },
+    {
+      "jp": "増大",
+      "en": "Escalation"
+    },
+    {
+      "jp": "変換",
+      "en": "Convertion"
+    }
+  ],
+  "scarab": [
+    {
+      "jp": "",
+      "en": ""
+    },
+    {
+      "jp": "戦争のスカラベ",
+      "en": "Legion Scarab of War"
+    }
+  ]
+}
