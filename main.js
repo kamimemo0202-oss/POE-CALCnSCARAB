@@ -25,3 +25,34 @@ document.getElementById("searchBtn").addEventListener("click", async () => {
     `;
   });
 });
+
+//ファームセットアップ
+async function loadScarabs() {
+  const res = await fetch("./data/scarabs.json");
+  return await res.json();
+}
+
+document.getElementById("contentSelect").addEventListener("change", async (e) => {
+  const value = e.taeget.value;
+  const scarabData = await loadScarabs();
+
+  const box = document.getElementById("scarabBox");
+
+  if (!value) {
+    box.innerHTML = "コンテンツを選択するとスカラベ構成を表示します。";
+    return;
+  }
+
+  const set = scarabData[value];
+
+  if (!set) {
+    box.innerHTML = "データがありません。";
+    return;
+  }
+
+  box.innerHTML = `
+    <ul>
+      ${set.map(s => `<li>${s}</li>`).join("")}
+    </ul>
+  `;
+});
