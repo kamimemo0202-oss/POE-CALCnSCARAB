@@ -33,10 +33,10 @@ async function loadScarabs() {
 }
 
 document.getElementById("contentSelect").addEventListener("change", async (e) => {
-  const value = e.taeget.value;
+  const value = e.target.value;
   const scarabData = await loadScarabs();
 
-  const box = document.getElementById("scarabBox");
+  const box = document.getElementById("scarabList");
 
   if (!value) {
     box.innerHTML = "コンテンツを選択するとスカラベ構成を表示します。";
@@ -52,7 +52,7 @@ document.getElementById("contentSelect").addEventListener("change", async (e) =>
 
   box.innerHTML = `
     <ul>
-      ${set.map(s => `<li>${s}</li>`).join("")}
+      ${set.map(s => `<li>${s.jp}<br><small>${s.en}</small></li>`).join("")}
     </ul>
   `;
 });
