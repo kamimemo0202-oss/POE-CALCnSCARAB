@@ -1,76 +1,159 @@
 {
-  "blight": [
-    {
-      "jp": "活性化",
-      "en": "Invigoration"
-    },
-    {
-      "jp": "ブライトハート",
-      "en": "Blightheart"
-    },
-    {
-      "jp": "開花",
-      "en": "Blooming"
-    },
-    {
-      "jp": "リスク",
-      "en": "Risk"
-    },
-    {
-      "jp": "ウィスプ",
-      "en": "Wisp"
-    },
-    {
-      "jp": "血統",
-      "en": "Bloodlines"
-    },
-    {
-      "jp": "増大",
-      "en": "Escalation"
-    },
-    {
-      "jp": "変換",
-      "en": "Convertion"
-    }
+  "categories"* [
+    {"id": "bright",  "name": "ブライト"},
+    {"id": "region",  "name": "リージョン"},
+    {"id": "strongbox",  "name": "ストロングボックス"},
+    {"id": "scarab",  "name": "スカラベ"},
+    {"id": "syndicate",  "name": "シンジケート"}
   ],
-  "scarab": [
+  "items": [
     {
-      "jp": "宿敵",
-      "en": "Nemeses"
+      "id": "scarab_1",
+      "name_jp": "活性化",
+      "name_en": "Invigoration",
+      "category": "blight",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["bright"]
     },
     {
-      "jp": "宿敵",
-      "en": "Nemeses"
+      "id": "scarab_2",
+      "name_jp": "ブライトハート",
+      "name_en": "BrightHeart",
+      "category": "blight",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["blight"]
     },
     {
-      "jp": "敵対者",
-      "en": "Adversaries"
+      "id": "scarab_3",
+      "name_jp": "宿敵",
+      "name_en": "Nemeses",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": []
+    },
+ 0   {
+      "id": "scarab_4",
+      "name_jp": "開花",
+      "name_en": "Blooming",
+      "category": "bright",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["bright"]
     },
     {
-      "jp": "神性",
-      "en": "Divinity"
-    }
-  ],
-  "strongbox": [
-    {
-      "jp": "アンブッシュ",
-      "en": "Ambush"
+      "id": "scarab_5",
+      "name_jp": "血統",
+      "name_en": "Bloodlines",
+      "category": "bright",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["bright"]
     },
     {
-      "jp": "眼識",
-      "en": "Discernment"
+      "id": "scarab_6",
+      "name_jp": "リスク",
+      "name_en": "Risk",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": []
     },
     {
-      "jp": "有効性",
-      "en": "Potency"
+      "id": "scarab_7",
+      "name_jp": "増大",
+      "name_en": "Escalation",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": []
     },
     {
-      "jp": "格納",
-      "en": "Containment"
+      "id": "scarab_8",
+      "name_jp": "変換",
+      "name_en": "Convertion",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": []
     },
     {
-      "jp": "隠し収納",
-      "en": "Compartments"
-    }
-  ]
-}
+      "id": "scarab_9",
+      "name_jp": "敵対者",
+      "name_en": "Adversaries",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": [","]
+    },
+    {
+      "id": "scarab_10",
+      "name_jp": "神性",
+      "name_en": "Divinity",
+      "category": "all_content",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": []
+    },
+    {
+      "id": "scarab_11",
+      "name_jp": "アンブッシュ",
+      "name_en": "Ambush",
+      "category": "strongbox",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["strongbox"]
+    },
+    {
+      "id": "scarab_12",
+      "name_jp": "眼識",
+      "name_en": "Discernment",
+      "category": "strongbox",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["strongbox"]
+    },
+    {
+      "id": "scarab_13",
+      "name_jp": "有効性",
+      "name_en": "Potency",
+      "category": "strongbox",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["strongbox"]
+    },
+    {
+      "id": "scarab_14",
+      "name_jp": "格納",
+      "name_en": "Containment",
+      "category": "strongbox",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["strongbox"]
+    },
+    {
+      "id": "scarab_15",
+      "name_jp": "隠し収納",
+      "name_en": "Compartments",
+      "category": "strongbox",
+      "description": "",
+      "position": "",
+      "size": "",
+      "tags": ["strongbox"]
+    },
