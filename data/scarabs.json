@@ -1,5 +1,5 @@
 {
-  "categories"* [
+  "categories" [
     {"id": "bright",  "name": "ブライト"},
     {"id": "region",  "name": "リージョン"},
     {"id": "strongbox",  "name": "ストロングボックス"},
